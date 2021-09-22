@@ -1,0 +1,119 @@
+ @font-face{
+    font-family: Pangolin;
+    src: url('/Pangolin/Pangolin-Regular.ttf') format('truetype');
+}
+body{
+    font-family: sans-serif, cursive;
+    font-family: Pangolin;
+}
+button{
+    font-family: Pangolin;
+}
+.container1, .container2, .container3, .container4, .container5 {
+    border: 1px solid black;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.primary{
+    background-color: blue;
+    padding: .3em;
+    border-radius: .3em;
+    font-size: 1.2em;
+    
+   
+   /* margin-right: 1em; */
+}
+.hot{
+    background-color: red;
+     padding: .3em;
+    border-radius: .3em;
+     font-size: 1.2em;
+}
+#background{
+    padding: .3em;
+}
+.warning{
+     background-color: yellow;
+     padding: .3em;
+    border-radius: .3em;
+     font-size: 1.2em;
+}
+.flexbox_container1, .flexbox_container2, .flexbox-rps, .flexbox-pick-color, .flex_blackjack_row1, 
+.flex_blackjack_row3
+{
+    display: flex;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    padding: 13px;
+    justify-content: space-around;
+}
+#yourBox img, #dealerBox img{
+    width: 20%;
+    margin-right: 8px;
+}
+.flex_blackjack_row2{
+      display: flex;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    padding: 13px;
+    justify-content: center;
+     background-image: url(images/blackjack%20background.jpg) ;
+    background-size: cover
+}
+.flex_blackjack_row1 div{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    flex: 1;
+    height: 450px;
+}
+.flex_blackjack_row1 img{
+ 
+}
+.flex_blackjack_row2 button{
+    margin-right: 1.5em;
+     font-size: 1.32em;
+    padding: 8px;
+   border: 1px solid black; 
+}
+.flex_blackjack_row1{
+    background-image: url(images/blackjack%20background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+   background-size: cover;
+    color: antiquewhite;
+}
+.flexbox_container1 div{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: .2em;
+}
+table, th, td{
+    padding: 5px;
+    border: 1px solid blue;
+    border-collapse: collapse;
+    font-size: 1.03em;
+    
+}
+.flexbox_result{
+    border: 1px solid black;
+}
+.success{
+    background-color: limegreen;
+     padding: .3em;
+    border-radius: .3em;
+     font-size: 1.2em;
+}
+.flexbox_container2 img{
+    margin: 10px;
+    box-shadow: 0px 10px 50px #e8e8e8;
+    max-width: 200px;
+}
+.flexbox-rps img{
+margin: 20px;
+     
+}
+.flexbox-rps img:hover{
+    box-shadow: 00px 10px 50px blue;
+}
